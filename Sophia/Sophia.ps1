@@ -172,11 +172,11 @@ WindowsWelcomeExperience -Hide
 
 # Get tip, trick, and suggestions as you use Windows (current user only) (default value)
 # Получать советы, подсказки и рекомендации при использованию Windows (только для текущего пользователя) (значение по умолчанию)
-WindowsTips -Enable
+# WindowsTips -Enable
 
 # Do not get tip, trick, and suggestions as you use Windows (current user only)
 # Не получать советы, подсказки и рекомендации при использованию Windows (только для текущего пользователя)
-# WindowsTips -Disable
+WindowsTips -Disable
 
 # Hide suggested content in the Settings app (current user only)
 # Скрывать рекомендуемое содержимое в приложении "Параметры" (только для текущего пользователя)
@@ -230,11 +230,11 @@ ThisPC -Show
 
 # Do not use check boxes to select items (current user only)
 # Не использовать флажки для выбора элементов (только для текущего пользователя)
-CheckBoxes -Disable
+# CheckBoxes -Disable
 
 # Use check boxes to select items (current user only) (default value)
 # Использовать флажки для выбора элементов (только для текущего пользователя) (значение по умолчанию)
-# CheckBoxes -Enable
+CheckBoxes -Enable
 
 # Show hidden files, folders, and drives (current user only)
 # Отображать скрытые файлы, папки и диски (только для текущего пользователя)
@@ -302,11 +302,11 @@ PeopleTaskbar -Hide
 
 # Show seconds on the taskbar clock (current user only)
 # Отображать секунды в системных часах на панели задач (только для текущего пользователя)
-SecondsInSystemClock -Show
+# SecondsInSystemClock -Show
 
 # Hide seconds on the taskbar clock (current user only) (default value)
 # Скрывать секунды в системных часах на панели задач (только для текущего пользователя) (значение по умолчанию)
-# SecondsInSystemClock -Hide
+SecondsInSystemClock -Hide
 
 # When I snap a window, do not show what I can snap next to it (current user only)
 # При прикреплении окна не показывать, что можно прикрепить рядом с ним (только для текущего пользователя)
@@ -386,11 +386,11 @@ WindowsInkWorkspace -Hide
 
 # Always show all icons in the notification area (current user only)
 # Всегда отображать все значки в области уведомлений (только для текущего пользователя)
-TrayIcons -Show
+# TrayIcons -Show
 
 # Do not show all icons in the notification area (current user only) (default value)
 # Не отображать все значки в области уведомлений (только для текущего пользователя) (значение по умолчанию)
-# TrayIcons -Hide
+TrayIcons -Hide
 
 # Unpin "Microsoft Edge" and "Microsoft Store" from the taskbar (current user only)
 # Открепить Microsoft Edge и Microsoft Store от панели задач (только для текущего пользователя)
@@ -588,11 +588,11 @@ DeliveryOptimization -Disable
 
 # Always wait for the network at computer startup and logon for workgroup networks
 # Всегда ждать сеть при запуске и входе в систему для рабочих групп
-WaitNetworkStartup -Enable
+# WaitNetworkStartup -Enable
 
 # Never wait for the network at computer startup and logon for workgroup networks (default value)
 # Никогда не ждать сеть при запуске и входе в систему для рабочих групп (значение по умолчанию)
-# WaitNetworkStartup -Disable
+WaitNetworkStartup -Disable
 
 # Do not let Windows decide which printer should be the default one (current user only)
 # Не разрешать Windows решать, какой принтер должен использоваться по умолчанию (только для текущего пользователя)
@@ -609,7 +609,7 @@ WindowsManageDefaultPrinter -Disable
 	If you want to leave "Multimedia settings" in the advanced settings of Power Options do not uninstall this feature
 	Если вы хотите оставить параметр "Параметры мультимедиа" в дополнительных параметрах электропитания, не удаляйте этот компонент
 #>
-WindowsFeatures -Disable
+# WindowsFeatures -Disable
 
 # Enable the Windows features using the pop-up dialog box that enables the user to select features to remove
 # Включить компоненты Windows, используя всплывающее диалоговое окно, позволяющее пользователю отметить компоненты на удаление
@@ -622,7 +622,7 @@ WindowsFeatures -Disable
 	If you want to leave "Multimedia settings" in the advanced settings of Power Options do not uninstall this feature
 	Если вы хотите оставить параметр "Параметры мультимедиа" в дополнительных параметрах электропитания, не удаляйте этот компонент
 #>
-WindowsCapabilities -Disable
+# WindowsCapabilities -Disable
 
 # Enable Feature On Demand v2 (FODv2) capabilities using the pop-up dialog box
 # Включить компоненты "Функции по требованию" (FODv2), используя всплывающее диалоговое окно
@@ -630,7 +630,7 @@ WindowsCapabilities -Disable
 
 # Opt-in to Microsoft Update service, so to receive updates for other Microsoft products
 # Подключаться к службе Microsoft Update так, чтобы при обновлении Windows получать обновления для других продуктов Майкрософт
-UpdateMicrosoftProducts -Enable
+# UpdateMicrosoftProducts -Enable
 
 # Opt-out of Microsoft Update service, so not to receive updates for other Microsoft products (default value)
 # Не подключаться к службе Microsoft Update так, чтобы при обновлении Windows не получать обновления для других продуктов Майкрософт (значение по умолчанию)
@@ -683,7 +683,7 @@ SetInputMethod -English
 	Изменить расположение пользовательских папок в корень любого диска на выбор с помощью интерактивного меню (только для текущего пользователя)
 	Пользовательские файлы и папки не будут перемещены в новое расположение
 #>
-SetUserShellFolderLocation -Root
+# SetUserShellFolderLocation -Root
 
 <#
 	Select a folder for the location of the user folders manually using a folder browser dialog (current user only)
@@ -705,7 +705,7 @@ SetUserShellFolderLocation -Root
 
 # Save screenshots by pressing Win+PrtScr to the Desktop folder (current user only)
 # Сохранять скриншоты по нажатию Win+PrtScr в папку "рабочий стол" (только для текущего пользователя)
-WinPrtScrFolder -Desktop
+# WinPrtScrFolder -Desktop
 
 # Save screenshots by pressing Win+PrtScr to the Pictures folder (current user only) (default value)
 # Cохранять скриншоты по нажатию Win+PrtScr в папку "Изображения" (только для текущего пользователя) (значение по умолчанию)
@@ -731,7 +731,7 @@ RecommendedTroubleshooting -Automatic
 
 # Launch folder windows in a separate process (current user only)
 # Запускать окна с папками в отдельном процессе (только для текущего пользователя)
-FoldersLaunchSeparateProcess -Enable
+# FoldersLaunchSeparateProcess -Enable
 
 # Do not launch folder windows in a separate process (current user only) (default value)
 # Не запускать окна с папками в отдельном процессе (только для текущего пользователя) (значение по умолчанию)
@@ -834,7 +834,7 @@ DeviceRestartAfterUpdate -Enable
 	https://github.com/farag2/Windows-10-Sophia-Script/issues/43
 	https://github.com/microsoft/WSL/issues/5437
 #>
-# WSL -Enable
+WSL -Enable
 
 # Uninstall the Windows Subsystem for Linux (WSL)
 # Удалить подсистему Windows для Linux (WSL)
@@ -852,7 +852,7 @@ DeviceRestartAfterUpdate -Enable
 	https://github.com/microsoft/WSL/issues/5437
 	https://github.com/farag2/Windows-10-Sophia-Script/issues/43
 #>
-# EnableWSL2
+EnableWSL2
 
 <#
 	Disable swap file in WSL
@@ -871,7 +871,7 @@ DeviceRestartAfterUpdate -Enable
 
 	https://github.com/microsoft/WSL/issues/5437
 #>
-# WSLSwap -Enable
+WSLSwap -Enable
 #endregion WSL
 
 #region Start menu
@@ -933,7 +933,7 @@ PinCommandPrompt
 	Удалить UWP-приложения, используя всплывающее диалоговое окно, позволяющее пользователю отметить пакеты на удаление
 	Приложения не будут установлены для новых пользователе, если отмечено "Удалять для всех пользователей"
 #>
-UninstallUWPApps
+# UninstallUWPApps
 
 <#
 	Open Microsoft Store "HEVC Video Extensions from Device Manufacturer" page
@@ -1227,19 +1227,19 @@ RunAsDifferentUserContext -Add
 
 # Hide the "Cast to Device" item from the context menu
 # Скрыть пункт "Передать на устройство" из контекстного меню
-CastToDeviceContext -Hide
+# CastToDeviceContext -Hide
 
 # Show the "Cast to Device" item in the context menu (default value)
 # Показывать пункт "Передать на устройство" в контекстном меню (значение по умолчанию)
-# CastToDeviceContext -Show
+CastToDeviceContext -Show
 
 # Hide the "Share" item from the context menu
 # Скрыть пункт "Отправить" (поделиться) из контекстного меню
-ShareContext -Hide
+# ShareContext -Hide
 
 # Show the "Share" item in the context menu (default value)
 # Показывать пункт "Отправить" (поделиться) в контекстном меню (значение по умолчанию)
-# ShareContext -Show
+ShareContext -Show
 
 # Hide the "Edit with Paint 3D" item from the context menu
 # Скрыть пункт "Изменить с помощью Paint 3D" из контекстного меню
